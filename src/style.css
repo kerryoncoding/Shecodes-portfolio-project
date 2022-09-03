@@ -1,6 +1,11 @@
 /* font-family: 'Playfair Display', serif;
 font-family: 'Poppins', sans-serif;  */
 
+
+.hero-section{
+    background-color: #f9f7fe;
+}
+
 h1 {
     color: red;
     font-family: 'Playfair Display', serif;
