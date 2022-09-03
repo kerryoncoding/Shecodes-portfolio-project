@@ -1,21 +1,28 @@
 /* font-family: 'Playfair Display', serif;
 font-family: 'Poppins', sans-serif;  */
 
+:root {
+    --primary-color: #f9f7fe;
+    --secondary-color:#6c63ff;
+    --primary-font: 'Poppins', sans-serif;
+    --secondayr-font:'Playfair Display', serif;
+}
 
-.hero-section{
-    background-color: #f9f7fe;
+
+.hero-section {
+    background-color: var(--primary-color);
     text-align: center;
-    padding: 30px;
+    padding: 250px;
 }
 
 .hero-section h1 {
-    font-family: 'Playfair Display', serif;
+    font-family: var(--secondary-font);
     font-size: 96px;
     font-weight: bold;
 }
 
 .hero-section h2 {
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--primary-font);
     font-size: 36px;
     font-weight: bold; 
 }
@@ -23,12 +30,27 @@ font-family: 'Poppins', sans-serif;  */
 
 
 .hero-section h3 {
-    font-family: 'Poppins', sans-serif;
-        font-size: 24px;
-        font-weight: normal;
-    }
+    font-family: var(--primary-font);
+    font-size: 24px;
+    font-weight: light;
+}
+
+.hero-section a {
+    font-family: var(--primary-font);
+    font-size: 18px;
+    font-weight: medium;
+    background-color:var(--secondary-color);
+    border-radius: 4px;
+    color:white;
+    text-decoration: none;
+    padding: 18px 46px;
+    
+}
+
+.get-started-btn {
+margin-top: 50px;
 }
 
 p {
-font-family: 'Poppins', sans-serif;
+font-family: var(--primary-font);
 }
