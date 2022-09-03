@@ -12,7 +12,7 @@ font-family: 'Poppins', sans-serif;  */
 .hero-section {
     background-color: var(--primary-color);
     text-align: center;
-    padding: 250px;
+    padding-bottom: 200px;
 }
 
 .hero-section h1 {
@@ -25,14 +25,15 @@ font-family: 'Poppins', sans-serif;  */
     font-family: var(--primary-font);
     font-size: 36px;
     font-weight: bold; 
+    padding-top: 250px;
 }
-
 
 
 .hero-section h3 {
     font-family: var(--primary-font);
     font-size: 24px;
     font-weight: light;
+    padding-bottom: 30px;
 }
 
 .hero-section a {
@@ -43,8 +44,7 @@ font-family: 'Poppins', sans-serif;  */
     border-radius: 4px;
     color:white;
     text-decoration: none;
-    padding: 18px 46px;
-    
+    padding: 18px 46px;    
 }
 
 .get-started-btn {
@@ -81,4 +81,42 @@ margin-top: 50px;
 
 p {
 font-family: var(--primary-font);
+}
+
+@media (max-width: 900px) {
+    .hero-section {
+        padding-bottom: 100px;
+    }
+    .hero-section h1 {
+        font-size: 50px;
+        font-weight: bold;
+    }
+    .hero-section h2 {
+        padding-top: 125px;
+}
+
+    .hero-section a {
+        font-size: 14px;
+        padding: 10px 22px;
+    }
+
+    .project-details {
+        text-align: center;
+        margin: 30px 10px;
+    }
+    .project-details h2 {
+        font-size: 34px;
+        padding-bottom: 15px;
+    }
+    
+    .project-details p {
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 40px;
+    }
+  
+    .project-details a {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
 }
